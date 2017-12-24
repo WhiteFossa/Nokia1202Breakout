@@ -59,17 +59,6 @@ F 3 "" H 1850 2150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x08_Male J1
-U 1 1 5A3EA674
-P 1100 1150
-F 0 "J1" H 1100 1550 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 1100 650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 1100 1150 50  0001 C CNN
-F 3 "" H 1100 1150 50  0001 C CNN
-	1    1100 1150
-	1    0    0    1   
-$EndComp
-$Comp
 L C C1
 U 1 1 5A3EA9A4
 P 2400 1650
@@ -196,4 +185,15 @@ Wire Wire Line
 	1900 1800 1900 1850
 Wire Wire Line
 	1900 1450 1900 1500
+$Comp
+L Conn_01x08_Male J1
+U 1 1 5A3EA674
+P 1100 1150
+F 0 "J1" H 1100 1550 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 1100 650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm" H 1100 1150 50  0001 C CNN
+F 3 "" H 1100 1150 50  0001 C CNN
+	1    1100 1150
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
